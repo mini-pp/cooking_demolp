@@ -1,0 +1,581 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <link href="https://fonts.googleapis.com/css?family=Kosugi+Maru" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <title>料理教室</title>
+  </head>
+  <body>
+<!-- nav -->
+<nav class="navbar navbar-expand-md navbar-light sticky-top">
+  <div class="container-fluid">
+    <a href="#" class="navbar-brand"><img src="img/logo.jpg" alt="" class="col-xs-1 col-sm-8 col-md-10"></a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item"><a href="#home" class="nav-link active">HOME</a></li>
+        <li class="nav-item"><a href="#menu" class="nav-link">献立</a></li>
+        <li class="nav-item"><a href="#staf" class="nav-link">スタッフ紹介</a></li>
+        <li class="nav-item"><a href="#cors" class="nav-link">コース紹介</a></li>
+        <li class="nav-item"><a href="#mony" class="nav-link">料金</a></li>
+        <li class="nav-item"><a href="#form" class="nav-link">ご予約・お問い合わせ</a></li>
+        <li class="nav-item"><a href="#access" class="nav-link">アクセス</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- image slider -->
+<div id="slides" class="carousel slide mb-5" data-ride="carousel">
+    <ul class="carousel-indicators">
+      <li data-target="#slides" data-slide-to="0" class="active"></li>
+      <li data-target="#slides" data-slide-to="1"></li>
+      <li data-target="#slides" data-slide-to="2"></li>
+    </ul>
+
+    <div class="carousel-inner">
+        <div class="carousel-item active"> <!-- slide画像　-->
+          <img src="img/ryori1.jpg" alt="背景画像">
+        </div>
+        <div class="carousel-item"> <!-- slide画像　-->
+          <img src="img/ryori2.jpg" alt="背景画像">
+        </div>
+        <div class="carousel-item"> <!-- slide画像　-->
+          <img src="img/ryori3.jpg" alt="背景画像">
+        </div>
+      </div>
+    </div>
+<!-- menu -->
+<div class="container" id="menu">
+  <div class="row text-center">
+    <div class="col-12">
+      <h1>献立</h1>
+    </div>
+    <hr class="hr-light my-4">
+    <div class="col-12 mb-5">
+      <p class="lead">今月の献立の中から、特に人気があるものをピックアップしました。<br>旬な食材を使い栄養バランスもバッチリな料理ばかりです。<br>色々美味しそうな料理がいっぱいです。<br>ぜひお気に入りのものを、見つけてください。</p>
+    </div>
+  </div>
+
+  <div class="row"> <!-- メニュー -->
+    <div class="col-sm-4">
+      <img src="img/washoku1.jpg" class="img-fluid">
+    </div>
+    <div class="col-sm-8">
+      <h4>手巻き風肉団子</h4>
+      <p>見た目は手巻きのように見えるかもしれませんが、実は肉団子なのです。<br>多分今が旬の菜の花を中に入れているので、さっぱりとした味に仕上がっています。<br>こちらの料理は基本的な出しのとり方が学べるので、とても人気なレッスンの1つです。</p>
+    </div>
+  </div>
+  <hr class="light my-5">
+
+  <div class="row"> <!-- メニュー -->
+    <div class="col-sm-4 order-sm-2">
+      <img src="img/washoku2.jpg" class="img-fluid">
+    </div>
+    <div class="col-sm-8 order-sm-1">
+      <h4>餃子風揚げ出し豆腐</h4>
+      <p>さぱっりとした揚げ出し豆腐です。<br>餃子のような形にすることで食べやすく、お子様にもとても人気です。<br>こちらのレッスンではさっぱりとしたタレも一緒に作っていきます。</p>
+    </div>
+  </div>
+  <hr class="light my-5">
+
+  <div class="row"> <!-- メニュー -->
+    <div class="col-sm-4">
+      <img src="img/pan1.jpg" class="img-fluid">
+    </div>
+    <div class="col-sm-8">
+      <h4>サンドイッチ</h4>
+      <p>とれたての新鮮な野菜をたっぷりと挟んだサンドイッチです。<br>中にいれるソースに一手間加えるだけで、まるでお店で売っているかのようなサンドイッチが作れます。</p>
+    </div>
+  </div>
+  <hr class="light my-5">
+</div>
+
+<button class="more mb-5 btn-outline-secondary btn-block" data-toggle="collapse" data-target="#menuImg"><a href="#">もっと見る</a></button> <!-- メニューもっと見るボタン -->
+  
+<div id="menuImg" class="collapse">
+  <div class="container">
+
+      <div class="row"> <!-- メニュー -->
+        <div class="col-sm-4">
+          <img src="img/pan2.jpg" class="img-fluid">
+        </div>
+        <div class="col-sm-8">
+          <h4>いちじくパン</h4>
+          <p>きっと今が旬のいちじくを生地に練り込み仕上げたいちじくパン。<br>飾りとしてもいちじくを使用しており、いちじくの良い香りが食欲をそそります。<br>仕上げにミントものせているのでさっぱりとした味わい深いパンです。</p>
+        </div>
+      </div>
+      <hr class="light my-5">
+
+      <div class="row"> <!-- メニュー -->
+        <div class="col-sm-4 order-sm-2">
+          <img src="img/okasi1.jpg" class="img-fluid">
+        </div>
+        <div class="col-sm-8 order-sm-1">
+          <h4>オレンジケーキ</h4>
+          <p>オレンジピールを練りこんだ風味豊かなオレンジケーキです。<br>さっぱりとした味で食後のお口直しに最適です。<br>とても可愛らしい見た目なのでお土産として持っていくのも良さそうですね。</p>
+        </div>
+      </div>
+      <hr class="light my-5">
+
+      <div class="row"> <!-- メニュー -->
+        <div class="col-sm-4">
+          <img src="img/okasi2.jpg" class="img-fluid">
+        </div>
+        <div class="col-sm-8">
+          <h4>梅タルト</h4>
+          <p>甘酸っぱい梅をベースにしたタルトです。<br>他にもりんごやバナナなどたくさんのフルーツを使っているので、とても食べ応えのある一品です。<br>梅の甘酸っぱい香りとりんごなどの爽やかなフルーツの香りが食欲をそそります。</p>
+        </div>
+      </div>
+      <hr class="light my-5">
+
+  </div>
+</div>
+<!-- staf -->
+
+<div class="container" id="staf">
+  <div class="row text-center">
+      <div class="col-12">
+          <h1>スタッフ紹介</h1>
+        </div>
+        <hr class="hr-light my-4">
+  </div>
+  <div class="row">
+    <div class="col-md-4 mb-5"> <!-- stafcard -->
+      <div class="card">
+        <img src="img/shehu1.jpg" class="card-img-top" alt="">
+        <div class="card-body">
+          <h4 class="card-title">田中富子</h4>
+          <p class="card-text">担当コース：和食コース<br>担当クラス：基礎クラス</p>
+          <br>
+          <a href="#" class="btn btn-outline-secondary">プロフィール</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4 mb-5"> <!-- stafcard -->
+      <div class="card">
+        <img src="img/shehu2.jpg" class="card-img-top" alt="">
+        <div class="card-body">
+          <h4 class="card-title">佐々木幸子</h4>
+          <p class="card-text">担当コース：パン作りコース<br>担当クラス：基礎クラス</p>
+          <br>
+          <a href="#" class="btn btn-outline-secondary">プロフィール</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4 mb-5"> <!-- stafcard -->
+      <div class="card">
+        <img src="img/shehu3.jpg" class="card-img-top" alt="">
+        <div class="card-body">
+          <h4 class="card-title">井上麻里奈</h4>
+          <p class="card-text">担当コース：お菓子作りコース<br>担当クラス：基礎クラス</p>
+          <br>
+          <a href="#" class="btn btn-outline-secondary">プロフィール</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4 mb-5"> <!-- stafcard -->
+      <div class="card">
+        <img src="img/shehu4.jpg" class="card-img-top" alt="">
+        <div class="card-body">
+          <h4 class="card-title">上野絢香</h4>
+          <p class="card-text">担当コース：和食コース<br>担当クラス：本格クラス</p>
+          <br>
+          <a href="#" class="btn btn-outline-secondary">プロフィール</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4 mb-5"> <!-- stafcard -->
+      <div class="card">
+        <img src="img/shehu5.jpg" class="card-img-top" alt="">
+        <div class="card-body">
+          <h4 class="card-title">大野悠香</h4>
+          <p class="card-text">担当コース：パン作りコース<br>担当クラス：本格クラス</p>
+          <br>
+          <a href="#" class="btn btn-outline-secondary">プロフィール</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4 mb-5"> <!-- stafcard -->
+      <div class="card">
+        <img src="img/shehu6.jpg" class="card-img-top" alt="">
+        <div class="card-body">
+          <h4 class="card-title">萩本梨花</h4>
+          <p class="card-text">担当コース：お菓子作りコース<br>担当クラス：本格クラス</p>
+          <br>
+          <a href="#" class="btn btn-outline-secondary">プロフィール</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+<!-- fixed bg -->
+<figure class="figur1">
+    <div class="fixed-wrap">
+      <div id="fixed">
+          <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+      </div>
+    </div>
+  </figure>
+<!-- コース紹介 -->
+<div class="container mt-5" id="cors">
+    <div class="row text-center">
+      <div class="col-12">
+        <h1 >コース紹介</h1>
+      </div>
+      <hr class="hr-light my-4">
+      <div class="col-12 mb-5">
+        <p class="lead">こちらの教室で用意している3種類のコースのご紹介です。</p>
+      </div>
+    </div>
+  
+    <div class="row"> <!-- コース -->
+      <div class="col-sm-4">
+        <img src="img/ryori4.jpg" class="img-fluid">
+      </div>
+      <div class="col-sm-8">
+        <h4>和食コース</h4>
+        <p>畑で採れた新鮮な野菜をメインに、バランスのとれた料理を作っていきます。<br>朝ごはんから夜ご飯のメニューまで幅広く学べるコースです。</p>
+      </div>
+    </div>
+    <hr class="light my-5">
+  
+    <div class="row"> <!-- コース -->
+      <div class="col-sm-4 order-sm-2">
+        <img src="img/ryori5.jpg" class="img-fluid">
+      </div>
+      <div class="col-sm-8 order-sm-1">
+        <h4>パン作りコース</h4>
+        <p>このコースでは、日本のパンはもちろん世界各国のパンのメニューを取り扱っています。<br>また、畑で採れた新鮮な野菜を使ったメニューもご用意しています。</p>
+      </div>
+    </div>
+    <hr class="light my-5">
+  
+    <div class="row"> <!-- コース -->
+      <div class="col-sm-4">
+        <img src="img/ryori6.jpg" class="img-fluid">
+      </div>
+      <div class="col-sm-8">
+        <h4>お菓子作りコース</h4>
+        <p>このコースでは、季節に合わせたお菓子を作っていきます。<br>手軽に作れるお菓子から、本格定期なものまで幅広いメニューを取り扱っています。</p>
+      </div>
+    </div>
+    <hr class="light my-5">
+  </div>  
+<!-- fixed bg -->
+<figure class="figur2">
+    <div class="fixed-wrap">
+      <div id="fixed">
+          <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+      </div>
+    </div>
+  </figure>
+<!-- mony -->
+<div class="container mt-5" id="mony">
+  <div class="row text-center">
+    <div class="col-12">
+      <h1>料金</h1>
+    </div>
+    <hr class="hr-light my-4">
+    <div class="col-12 mb-4">
+        <p class="lead">全てのコースの有効期限は最初のレッスンから20ヶ月です。</p>
+    </div>
+  </div>
+
+ <div class="panel-group" id="accordion">
+    <div class="panel panel-default"> <!-- アコーディオン -->
+      <div class="panel-heading">
+        <h4 class="panel-title accordion-toggle mb-2">
+          <a href="#collapseOne" data-toggle="collapse" data-parent="#accordion">和食コース</a>
+        </h4>
+      </div>
+      <div id="collapseOne" class="panel-collapse collapse in">
+          <div class="panel-body">
+            <table class="table table-striped text-center">
+              <thead>
+                <tr>
+                  <th>基礎クラス</th>
+                  <th></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>6回</td>
+                  <td>5,000円</td>
+                </tr>
+                <tr>
+                  <td>12回</td>
+                  <td>10,000円</td>
+                </tr>
+                <tr>
+                  <td>18回</td>
+                  <td>15,000円</td>
+                </tr>
+              </tbody>
+              <thead>
+                <tr>
+                  <th>上級クラス</th>
+                  <th></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>6回</td>
+                  <td>10,000円</td>
+                </tr>
+                <tr>
+                  <td>12回</td>
+                  <td>20,000円</td>
+                </tr>
+                <tr>
+                  <td>18回</td>
+                  <td>25,000円</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+    <div class="panel panel-default"> <!-- アコーディオン -->
+      <div class="panel-heading">
+        <h4 class="panel-title accordion-toggle mb-2">
+          <a href="#collapseTwo" data-toggle="collapse" data-parent="#accordion">パン作りコース</a>
+        </h4>
+      </div>
+      <div id="collapseTwo" class="panel-collapse collapse in">
+          <div class="panel-body">
+              <table class="table table-striped text-center">
+                  <thead>
+                    <tr>
+                      <th>基礎クラス</th>
+                      <th></th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>6回</td>
+                      <td>5,000円</td>
+                    </tr>
+                    <tr>
+                      <td>12回</td>
+                      <td>10,000円</td>
+                    </tr>
+                    <tr>
+                      <td>18回</td>
+                      <td>15,000円</td>
+                    </tr>
+                  </tbody>
+                  <thead>
+                    <tr>
+                      <th>上級クラス</th>
+                      <th></th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>6回</td>
+                      <td>10,000円</td>
+                    </tr>
+                    <tr>
+                      <td>12回</td>
+                      <td>20,000円</td>
+                    </tr>
+                    <tr>
+                      <td>18回</td>
+                      <td>25,000円</td>
+                    </tr>
+                  </tbody>
+                </table>
+          </div>
+        </div>
+      </div>
+
+    <div class="panel panel-default mb-5"> <!-- アコーディオン -->
+      <div class="panel-heading">
+        <h4 class="panel-title accordion-toggle mb-2">
+          <a href="#collapseThree" data-toggle="collapse" data-parent="#accordion">お菓子作りコース</a>
+        </h4>
+      </div>
+      <div id="collapseThree" class="panel-collapse collapse in">
+          <div class="panel-body">
+              <table class="table table-striped text-center">
+                  <thead>
+                    <tr>
+                      <th>基礎クラス</th>
+                      <th></th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>6回</td>
+                      <td>5,000円</td>
+                    </tr>
+                    <tr>
+                      <td>12回</td>
+                      <td>10,000円</td>
+                    </tr>
+                    <tr>
+                      <td>18回</td>
+                      <td>15,000円</td>
+                    </tr>
+                  </tbody>
+                  <thead>
+                    <tr>
+                      <th>上級クラス</th>
+                      <th></th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>6回</td>
+                      <td>10,000円</td>
+                    </tr>
+                    <tr>
+                      <td>12回</td>
+                      <td>20,000円</td>
+                    </tr>
+                    <tr>
+                      <td>18回</td>
+                      <td>25,000円</td>
+                    </tr>
+                  </tbody>
+                </table>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row text-center">
+        <div class="col-12">
+          <h4>体験レッスン実施中</h4>
+        </div>
+        <hr class="hr-light mt-2 mb-3">
+        <div class="col-12 mb-4">
+          <p class="lead　mb-3">各コース2回までの無料体験レッスン実施中です。<br>ぜひ自分にあったコースを見つけてください！</p>
+          <button class="btn-outline-secondary mt-3 mb-5 p-3"><a href="#">無料体験レッスンはこちら</a></button>
+        </div>
+      </div>
+  </div>
+<!-- form -->
+<div class="container" id="form">
+  <div class="row text-center">
+    <div class="col-12">
+      <h1>ご予約・お問い合わせ</h1>
+    </div>
+  </div>
+    <hr class="hr-light my-4">
+      <div class="mb-5 form-group">
+        <label for="name">お名前<span class="form">（必須）</span></label>
+        <input type="text" id="name" class="form-control mb-4">
+        <label for="mail">メールアドレス<span class="form">（必須）</span></label>
+        <input type="text" id="mail" class="form-control mb-4">
+      </div>
+        <div class="form-radio mb-4">
+          <p class="radio-title mb-2">コース選択</p>
+          <div class="form-check">
+            <input type="radio" name="cors" id="cors1" class="form-check-input" checked>
+            <label for="cors1" class="form-check-label">和食コース</label>
+          </div>
+          <div class="form-check">
+            <input type="radio" name="cors" id="cors2" class="form-check-input">
+            <label for="cors2" class="form-check-label">パン作りコース</label>
+          </div>
+          <div class="form-check">
+            <input type="radio" name="cors" id="cors3" class="form-check-input">
+            <label for="cors3" class="form-check-label">お菓子作りコース</label>
+          </div>
+        </div>  
+
+        <div class="form-radio mb-4">
+          <p class="radio-title mb-2">クラス選択</p>
+          <div class="form-check">
+            <input type="radio" name="class" id="class1" class="form-check-input" checked>
+            <label for="class1" class="form-check-label">基礎クラス</label>
+          </div>
+          <div class="form-check">
+            <input type="radio" name="class" id="class2" class="form-check-input">
+            <label for="class2" class="form-check-label">本格クラス</label>
+          </div>
+        </div>  
+
+        <div class="form-group">
+          <label for="textarea1">お問い合わせ内容</label>
+          <textarea id="textarea1" class="form-control"></textarea>
+        </div>
+        <div class="col-12 text-center">
+        <button class="f-btn btn-outline-secondary mt-3 mb-5 p-3"><a href="#">送信</a></button>
+        </div>
+    </div>
+
+
+<!-- accese -->
+<div class="container" id="accese">
+  <div class="row">
+    <div class="col-12 text-center">
+      <h1>アクセス</h1>
+    </div>
+  </div>
+    <hr class="hr-light my-4">
+    <div class="row my-5">
+    <div class="col-sm-12 col-md-6 col-lg-6 mb-4 accese-text">
+      <p class="access-text">〒012-3456<br>東京都スカイ区押下0-0-0<br>TEL:012-345-6789</p><br>
+      <p class="access-text"><i class="fas fa-subway"></i>電車をご利用の方<br>スカイ駅東口から徒歩10分</p><br>
+      <p class="access-text"><i class="fas fa-bus"></i>バスをご利用の方<br>ツリー駅下車後、コンビニのある交差点を左折</p><br>
+      <p class="access-text"><i class="fas fa-car"></i>車をご利用の方<br>教室の横に駐車場があります<br>予約制ですので事前にご連絡お願い致します</p>
+    </div>
+    <div class="col-sm-12 col-md-6 col-lg-6 mb-5 iframe-wrap">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3239.656783806038!2d139.81070040000003!3d35.710062699999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188ed0d12f9adf%3A0x7d1d4fb31f43f72a!2z5p2x5Lqs44K544Kr44Kk44OE44Oq44O8!5e0!3m2!1sja!2sjp!4v1554427954049!5m2!1sja!2sjp" width="540" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+    </div>
+  
+</div>
+<!-- footer -->
+<footer class="pt-5 pb-2 bg-light">
+  <div class="container">
+    <div class="row text-center">
+      <div class="col-md-4 mb-2">
+        <p>会社情報</p>
+      </div>
+      <div class="col-md-4 mb-2">
+        <p>利用規約</p>
+      </div>
+      <div class="col-md-4 mb-2">
+        <p>個人情報保護ポリーシー</p>
+      </div>
+      <div class="col-12 social mb-2">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-google-plus-g"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+      <div class="col-12">
+        <small>&copy;2019 Mini ALL RIGHTS RESERVED.</small>
+      </div>
+    </div>
+  </div>
+</footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
